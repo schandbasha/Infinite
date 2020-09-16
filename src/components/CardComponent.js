@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBRow, MDBCol, MDBView, MDBIcon } from 'mdbreact';
-import ChartsPage from './ChartsPage ';
+import { MDBCard, MDBCardBody, MDBRow, MDBCol, MDBView } from 'mdbreact';
+import ChartPageOneComponent from './ChartPageOneComponent';
 import CardTable from "./CardTable";
+import ChartPageTwoComponent from './ChartPageTwoComponent'
 // import './App.css'; //Import here your file style
 
 class CardComponent extends Component{
@@ -12,12 +13,12 @@ class CardComponent extends Component{
             <MDBCard narrow>
               <MDBView cascade>
               <div className="view view-cascade narrower d-flex justify-content-between align-items-center cardHeader">
-              <span className="heartIcon"><i class="fa fa-heart" aria-hidden="true"></i></span>
+              <span className="heartIcon"><i className="fa fa-heart" aria-hidden="true"></i></span>
                 <div className="bloodPressureClass">
                   BLOOD PRESSURE<br />
                   <span className="bpNumber">128/60</span>
                 </div>
-                <div class="dropdownClass">
+                <div className="dropdownClass">
                   <div className="selectedDates">Selected Dates</div>
                     <select id="Dates" name="Dates">
                         <option value="volvo">Last 7 days</option>
@@ -28,7 +29,7 @@ class CardComponent extends Component{
               </div>
               </MDBView>
               <MDBCardBody>
-                  <ChartsPage />
+                  <ChartPageOneComponent />
                   <CardTable />
               </MDBCardBody>
             </MDBCard>
@@ -38,12 +39,12 @@ class CardComponent extends Component{
             <MDBCard narrow>
               <MDBView cascade>
               <div className="view view-cascade narrower d-flex justify-content-between align-items-center cardHeader">
-              <span className="bloodpressureIcons"><i class="fa fa-heart" aria-hidden="true"></i></span>
+              <span className="bloodpressureIcons"><i className="fa fa-heart" aria-hidden="true"></i></span>
                 <div className="bloodPressureClass">
-                BLOOD PRESSURE<br />
+                HEART RATE<br />
                   <span className="bpNumber">87 bpm</span>
                 </div>
-                <div class="dropdownClass">
+                <div className="dropdownClass">
                   <div className="selectedDates">Selected Dates</div>
                     <select id="Dates" name="Dates">
                         <option value="volvo">Last 7 days</option>
@@ -54,7 +55,7 @@ class CardComponent extends Component{
               </div>
               </MDBView>
               <MDBCardBody>
-                  <ChartsPage />
+                  <ChartPageTwoComponent />
                   <CardTable />
               </MDBCardBody>
             </MDBCard>
@@ -64,12 +65,12 @@ class CardComponent extends Component{
             <MDBCard narrow>
               <MDBView cascade>
               <div className="view view-cascade narrower d-flex justify-content-between align-items-center cardHeader">
-              <span className="heartIcon"><i class="fa fa-heart" aria-hidden="true"></i></span>
+              <span className="heartIcon"><i className="fa fa-heart" aria-hidden="true"></i></span>
                 <div className="bloodPressureClass">
-                BLOOD PRESSURE<br />
+                BLOOD SUGAR<br />
                   <span className="bpNumber">98</span>
                 </div>
-                <div class="dropdownClass">
+                <div className="dropdownClass">
                   <div className="selectedDates">Selected Dates</div>
                     <select id="Dates" name="Dates">
                         <option value="volvo">Last 7 days</option>
@@ -80,7 +81,7 @@ class CardComponent extends Component{
               </div>
               </MDBView>
               <MDBCardBody>
-                  <ChartsPage />
+                  <ChartPageOneComponent />
                   <CardTable />
               </MDBCardBody>
             </MDBCard>

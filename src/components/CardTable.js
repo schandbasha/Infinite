@@ -7,11 +7,11 @@ return (
         <thead>
           <tr>
             <th className="th-md">DATES
-                <span className="sortIcon"><i class="fa fa-sort-amount-asc"></i></span></th>
+                <span className="sortIcon"><i className="fa fa-sort-amount-asc"></i></span></th>
             <th className="th-md">ICD CODES
-            <span className="sortIcon"><i class="fa fa-sort-amount-asc"></i></span></th>
+            <span className="sortIcon"><i className="fa fa-sort-amount-asc"></i></span></th>
             <th className="th-md">CONDITION
-            <span className="sortIcon"><i class="fa fa-sort-amount-asc"></i></span></th>
+            <span className="sortIcon"><i className="fa fa-sort-amount-asc"></i></span></th>
           </tr>
         </thead>
         <tbody>

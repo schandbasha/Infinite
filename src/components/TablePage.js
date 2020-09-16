@@ -5,7 +5,7 @@ return (
 <div className="card card-cascade narrower">
   <div className="view view-cascade narrower d-flex justify-content-between align-items-center">
     <div className="encounters mx-3">
-        <span className="arrowIcons"><i class="fa fa-arrows-h" aria-hidden="true"></i></span>
+        <span className="arrowIcons"><i className="fa fa-arrows-h" aria-hidden="true"></i></span>
       ENCOUNTERS<br />
       <span className="encounterNumber">32</span>
     </div>
@@ -21,23 +21,23 @@ return (
         <thead>
           <tr>
             <th className="th-md">TYPE
-                <span className="sortIcon"><i class="fa fa-sort-amount-asc"></i></span></th>
+                <span className="sortIcon"><i className="fa fa-sort-amount-asc"></i></span></th>
             <th className="th-md">START DATE
-            <span className="sortIcon"><i class="fa fa-sort-amount-asc"></i></span></th>
+            <span className="sortIcon"><i className="fa fa-sort-amount-asc"></i></span></th>
             <th className="th-md">END DATE
-            <span className="sortIcon"><i class="fa fa-sort-amount-asc"></i></span></th>
+            <span className="sortIcon"><i className="fa fa-sort-amount-asc"></i></span></th>
             <th className="th-md">PROVIDER
-            <span className="sortIcon"><i class="fa fa-sort-amount-asc"></i></span></th>
+            <span className="sortIcon"><i className="fa fa-sort-amount-asc"></i></span></th>
             <th className="th-md">INSURANCE
-            <span className="sortIcon"><i class="fa fa-sort-amount-asc"></i></span></th>
+            <span className="sortIcon"><i className="fa fa-sort-amount-asc"></i></span></th>
             <th className="th-md">COST
-            <span className="sortIcon"><i class="fa fa-sort-amount-asc"></i></span></th>
+            <span className="sortIcon"><i className="fa fa-sort-amount-asc"></i></span></th>
             <th className="th-md">IDENTIFIER
-            <span className="sortIcon"><i class="fa fa-sort-amount-asc"></i></span></th>
+            <span className="sortIcon"><i className="fa fa-sort-amount-asc"></i></span></th>
             <th className="th-md">DESCRIPTION
-            <span className="sortIcon"><i class="fa fa-sort-amount-asc"></i></span></th>
+            <span className="sortIcon"><i className="fa fa-sort-amount-asc"></i></span></th>
             <th className="th-md">REASON
-            <span className="sortIcon"><i class="fa fa-sort-amount-asc"></i></span></th>
+            <span className="sortIcon"><i className="fa fa-sort-amount-asc"></i></span></th>
           </tr>
         </thead>
         <tbody>
