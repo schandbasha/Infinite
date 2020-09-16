@@ -1,0 +1,165 @@
+.App{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.default-color{
+	background-color: #880e4f !important;;
+}
+.container{
+	padding: 15px 0px 15px 0px;
+}
+.tableData{
+	margin-top: 15px ;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	border-radius: 5px;
+	border: 0px;
+}
+table th {
+    font-size: 0.8rem !important;
+	font-weight: 600 !important;
+}
+.cardTable th{
+	font-size: 0.7rem !important;
+	font-weight: 600 !important;
+	border-bottom: none !important
+}
+.cardTable td{
+	padding: 0.45rem !important;
+	font-size: 0.6rem !important;
+	width: 100px !important;
+}
+td {
+	border-top: none !important;
+	font-size: 0.7rem !important;
+}
+.encounters{
+	font-size: 0.9rem !important;
+	font-weight: 600 !important;
+	color: indigo;
+	margin-top: 15px;
+
+}
+.encounterNumber{
+	font-size: 0.7rem;
+	font-weight: 600 !important;
+	color: #880e4f;
+	padding-left: 20px;
+}
+.bpNumber{
+	font-size: 0.7rem;
+	font-weight: 600 !important;
+	color: #880e4f;
+}
+.sortIcon{
+	padding-left: 5px;
+}
+.arrowIcons{
+	padding-right: 5px;
+}
+.heartIcon{
+	color: #880e4f !important;
+	font-size: 30px !important;
+	padding-left: 20px;
+	margin-top:10px;
+}
+.bloodpressureIcons{
+	color: indigo !important;
+	font-size: 30px !important;
+	padding-left: 20px;
+}
+.bloodPressureClass{
+	font-size: 0.9rem !important;
+	font-weight: 600 !important;
+	color: indigo;
+	margin-top: 15px;
+	margin-right: 30px;
+}
+.dropdownClass{
+	margin-right: 15px;
+}
+.selectedDates{
+	font-size: 0.7rem !important;
+}
+#Dates{
+	width: 100px;
+	height: 20px;
+	font-size: 0.7rem !important;
+}
+
+
+@media screen and (min-width:400px) and (max-width:576px){
+	.cardItems{
+		flex: 0 0 100%;
+		max-width: 100%;
+		margin: 10px 0px 10px 0px;
+	}
+	.container{
+		padding: 15px 15px 15px 15px;
+	}
+ }
+
+ @media screen and (min-width:576px) and (max-width:768px){
+/* @media (min-width: 768px) {  */
+	.cardItems{
+		flex: 0 0 100%;
+		max-width: 100%;
+		margin: 10px 0px 10px 0px;	
+	}
+	.container{
+		padding: 15px 15px 15px 15px;
+	}
+	table th {
+		padding: 0rem !important;
+		padding-bottom: 10px !important;
+		padding-left: 5px !important;
+		padding-right: 5px !important;
+		/* display: flex !important; */
+	}
+ }
+
+ @media screen and (min-width:768px) and (max-width:992px){
+	.bloodPressureClass{
+		margin-right: 5px !important;
+	}
+	.cardItems{
+		flex: 0 0 33.333333%;
+		max-width: 33.333333%;
+	}
+	.cardTable th {
+		padding: 0rem !important;
+		padding-top: 15px !important;
+	}
+	table th {
+		padding: 0rem !important;
+		padding-bottom: 10px !important;
+		/* display: flex !important; */
+	}
+ }
+
+ @media screen and (min-width:992px) and (max-width:1200px){
+	.bloodPressureClass{
+		margin-right: 5px !important;
+	}
+	.cardTable th {
+		padding: 0rem !important;
+	}
+	table th {
+		padding: 0rem !important;
+		padding-bottom: 10px !important;
+	}
+	.cardItems{
+		flex: 0 0 33.333333%;
+		max-width: 33.333333%;
+	}
+ }
+@media (min-width: 1200px) { 
+	.cardItems{
+		flex: 0 0 33.333333%;
+		max-width: 33.333333%;
+	}
+ }
