@@ -113,6 +113,12 @@ td {
 	.container{
 		padding: 15px 15px 15px 15px;
 	}
+	.row{
+		display: flex;
+		flex-wrap: wrap;
+		margin-right: -115px;
+		margin-left: -115px;
+	}
 	table th {
 		padding: 0rem !important;
 		padding-bottom: 10px !important;
